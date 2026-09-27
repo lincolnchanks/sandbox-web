@@ -7,6 +7,8 @@ p {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 25px;
+    row-gap: 25px;
     padding: 25px;
 }
 #character-sheet h2 {
@@ -48,4 +50,11 @@ p {
     border: 2px solid black;
     margin-top: 20px;
     display: flex;
+}
+#skills {
+    border: 2px solid black;
+}
+#weapons {
+    border: 2px solid black;
+    height: 250px;
 }
